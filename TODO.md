@@ -1,3 +1,4 @@
-- [x] web server
+- [ ] Makefile
+- [x] web server 
 - [x] redis setup
-- [x] url shortener
+- [x] url shortener 
