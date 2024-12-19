@@ -37,7 +37,7 @@ func (server *server) RegisterRoutes() {
 			host := c.Request().Host
 			scheme := c.Request().URL.Scheme
 
-			server.cache.Set(shortUrl, url, time.Second*30)
+			server.cache.Set(shortUrl, url, time.Hour*24)
 
 			return c.String(http.StatusOK, fmt.Sprintf("%s/%s", scheme+host, shortUrl))
 		}
