@@ -1,0 +1,3 @@
+- [x] web server
+- [x] redis setup
+- [x] url shortener
